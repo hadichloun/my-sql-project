@@ -1,0 +1,13 @@
+USE my_sql_univeristy;
+
+SELECT *
+FROM Students_sql;
+
+SELECT *
+FROM Professors;
+
+SELECT *
+FROM Grades_sql;
+
+SELECT *
+FROM Courses;

@@ -1,0 +1,47 @@
+USE university_schema;
+
+-- Creating Students 
+INSERT INTO Students(students_id, students_name, students_name)
+VALUES (1, "wwwwwww", "eqwsd@test.com", 1);
+
+INSERT INTO Students(students_id, students_name, students_name)
+VALUES (2, "dqwdddd", "dqwgre@test.com", 2);
+
+INSERT INTO Students(students_id, students_name, students_name)
+VALUES (3, "fewfew", "fewfew@test.com", 3);
+
+
+-- Creating Professors
+INSERT INTO Professors(professors_id, professors_name, professors_name, professors_students_id)
+VALUES (1, "fewfewfew", "fewfewfew@test.com", 1);
+
+INSERT INTO Professors(professors_id, professors_name, professors_name, professors_students_id)
+VALUES (2, "fqdad", "fewfwefew@test.com", 2);
+
+INSERT INTO Professors(professors_id, professors_name, professors_name, professors_students_id)
+VALUES (3, "dadada", "daadadf@test.com", 3);
+
+
+-- Creating Grades
+INSERT INTO Grades(grades_id, grades_letter, grades_students_id)
+VALUES (1, "A", 1);
+
+INSERT INTO Grades(grades_id, grades_letter, grades_students_id)
+VALUES (2, "B", 2);
+
+INSERT INTO Grades(grades_id, grades_letter, grades_students_id)
+VALUES (3, "C", 3);
+
+INSERT INTO Grades(grades_id, grades_letter, grades_students_id)
+VALUES (4, "D", 4);
+
+
+-- Creating Courses
+INSERT INTO Courses(courses_id, courses_name, courses_students_id)
+VALUES (1, "eng", 1);
+
+INSERT INTO Courses(courses_id, courses_name, courses_students_id)
+VALUES (2, "mth", 2);
+
+INSERT INTO Courses(courses_id, courses_name, courses_students_id)
+VALUES (3, "his", 3);
